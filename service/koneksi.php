@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "192.168.254.231";
 $username = "root";
-$password = "";
+$password = "rahasiapusat";
 $dbname = "absensi";
 
 // Create connection
@@ -12,3 +12,4 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 //echo "Connected successfully";
+
